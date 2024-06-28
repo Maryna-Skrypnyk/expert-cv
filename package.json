@@ -2,22 +2,22 @@
   "name": "expert_cv",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Maryna-Skrypnyk.github.io/expert_cv/",
+  "homepage": "https://Maryna-Skrypnyk.github.io/expert-cv/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /expert_cv/",
+    "build": "parcel build src/*.html --public-url /expert-cv/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maryna-skrypnyk/expert_cv.git"
+    "url": "git+https://github.com/maryna-skrypnyk/expert-cv.git"
   },
   "keywords": [],
   "author": "Maryna Skrypnyk <marina.skrypnyk@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maryna-skrypnyk/expert_cv/issues"
+    "url": "https://github.com/maryna-skrypnyk/expert-cv/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
