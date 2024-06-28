@@ -1,0 +1,75 @@
+aside .select {
+  @media screen and (max-width: 767px) {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.about-me-container .select {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.select {
+  position: relative;
+}
+
+.select.is-active .select__body {
+  display: block;
+}
+
+.select__header {
+  display: flex;
+  padding: 0;
+  border: 1px solid $accent-color;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.5;
+  background-color: $primary-text-color;
+  background-image: linear-gradient(
+    to top,
+    $primary-text-color,
+    $primary-white-color 33%
+  );
+}
+.select__current {
+  padding: 4px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: $sidebar-bg-color;
+}
+
+.select__body {
+  display: none;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  border: 1px solid $dots-color;
+  border-top: 0;
+  border-radius: 4px;
+}
+.select__item {
+  padding: 4px;
+  font-size: 14px;
+  color: $accent-color;
+  background-color: #f2f2f2;
+  line-height: 1.5;
+  border: 1px dotted $dots-color;
+  cursor: pointer;
+  @include transit(color, background-color);
+}
+
+.select__item:hover {
+  background-color: $accent-color;
+  color: #f2f2f2;
+}

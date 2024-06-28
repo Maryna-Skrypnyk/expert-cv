@@ -1,0 +1,136 @@
+.switch-container {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: sticky;
+  top: 10px;
+  left: 0;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+}
+
+/*theme*/
+.toolbar {
+  @media screen and (min-width: 768px) {
+    margin-left: 10px;
+  }
+}
+
+/*theme switcher*/
+.theme-switch {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+
+  &__icon {
+    color: currentColor;
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+  }
+
+  .light-theme &__icon--sun {
+    @include transit(color);
+    color: $accent-color;
+  }
+
+  .light-theme &__icon--moon {
+    @include transit(color);
+    color: $secondary-text-color;
+
+    @media screen and (min-width: 768px) {
+      color: $sidebar-bg-color;
+    }
+  }
+
+  .dark-theme &__icon--sun {
+    @include transit(color);
+    color: $secondary-text-color;
+
+    @media screen and (min-width: 768px) {
+      color: $primary-text-color;
+    }
+  }
+
+  .dark-theme &__icon--moon {
+    @include transit(color);
+    color: $accent-color;
+  }
+
+  &__control {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 64px;
+    height: 32px;
+    border-radius: 50em;
+    padding: 3px 0;
+  }
+
+  &__toggle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+  }
+
+  &__track {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55px;
+    height: 100%;
+    user-select: none;
+    @include transit(background-color);
+    background-color: #1d466c;
+    border-radius: inherit;
+    z-index: 1;
+    cursor: pointer;
+    box-shadow: 0 0 0 3px $accent-color;
+  }
+
+  @media screen and (max-width: 767px) {
+    .dark-theme &__toggle:checked + &__track {
+      background-color: $dots-color;
+    }
+  }
+
+  &__marker {
+    position: relative;
+    background-color: $accent-color;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    z-index: 2;
+    pointer-events: none;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    transform: translateX(3px);
+    @include transit(transform);
+    //   transition: transform 250ms $cubic-bezier;
+  }
+
+  &__toggle:checked + &__track {
+    background-color: $primary-text-color;
+  }
+
+  &__toggle:checked ~ &__marker {
+    transform: translateX(27px);
+  }
+
+  &__toggle:focus + &__track,
+  &__toggle:active + &__track {
+    box-shadow: 0 0 0 3px $accent-color;
+  }
+}

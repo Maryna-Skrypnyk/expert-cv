@@ -1,0 +1,427 @@
+<div class="about-me-container">
+  <div class="switch-container">
+    <!-- Розмітка перемикача мови для екранів більше 767px-->
+    <div class="select">
+      <div class="select__header">
+        <span class="select__current">UA</span>
+      </div>
+      <div class="select__body">
+        <div class="select__item">EN</div>
+        <div class="select__item">UA</div>
+      </div>
+    </div>
+    <!-- Розмітка перемикача теми -->
+    <div class="toolbar">
+      <div class="theme-switch">
+        <svg
+          class="theme-switch__icon theme-switch__icon--sun"
+          role="img"
+          aria-label="Іконка сонця"
+        >
+          <use href="./images/sprite.svg#sun"></use>
+        </svg>
+
+        <div class="theme-switch__control">
+          <input
+            class="theme-switch__toggle"
+            type="checkbox"
+            name="theme"
+            id="theme-switch-toggle"
+            aria-label="Перемикач темної і світлої теми"
+          />
+          <label
+            aria-hidden="true"
+            class="theme-switch__track"
+            for="theme-switch-toggle"
+          >
+          </label>
+          <div aria-hidden="true" class="theme-switch__marker"></div>
+        </div>
+
+        <svg
+          class="theme-switch__icon theme-switch__icon--moon"
+          aria-label="Іконка місяця"
+        >
+          <use href="./images/sprite.svg#moon"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <!--about me main info-->
+  <div class="info-container">
+    <div class="info-tablet">
+      <h1 class="name lng-name">Марина Скрипник</h1>
+      <h2 class="profession lng-profession">
+        Експерт з фінансово-кредитних операцій
+      </h2>
+    </div>
+
+    <p class="description lng-description">
+      Взяла участь у написанні понад 100 експертних висновків. Написала понад 50
+      публікацій з розміщенням на сайтах та у соц.мережах. У 2019 році успішно
+      завершила підготовку та атестацію в Міністерстві юстиції України на
+      незалежного судового експерта по спеціальності "Дослідження документів
+      фінансово-кредитних операцій".
+    </p>
+  </div>
+
+  <!--projects container-->
+  <div class="projects-container">
+    <h3 class="about-me-title lng-projects">Робота із сайтами</h3>
+    <ol class="projects-list">
+      <li class="projects-item">
+        <a
+          class="projects-link"
+          href="https://www.facebook.com/creditexpertiza/"
+        >
+          facebook.com/creditexpertiza/
+        </a>
+        <span class="dots">..........</span>
+        <span class="link-description">
+          <b>[</b><span class="tech-name lng-site">власна бізнес-сторінка</span
+          ><b>]</b>
+        </span>
+        <!-- <p class="about-project">
+          <span class="about lng-aboutProject">About the project:</span>
+          <span class="lng-aboutIcecream"
+            >mobile-first adaptive and responsive landing page to introduce ice
+            cream products and attract clients.</span
+          >
+        </p>
+        <p class="about-project">
+          <span class="about lng-tasks">My tasks:</span>
+          <span class="lng-icecreamTask"
+            >layout of sections Advantages, Gallery, Customer reviews.
+            Coordination of team coding.</span
+          >
+        </p>
+        <p class="about-project">
+          <span class="about lng-role">My role:</span> Team Lead,
+          <span class="lng-profession">Front-End developer</span> (<span
+            class="lng-team"
+            >team project</span
+          >).
+        </p> -->
+      </li>
+      <li class="projects-item">
+        <a class="projects-link" href="https://www.pacers.top/"> pacers.top </a>
+        <span class="dots"
+          >.............................................................</span
+        >
+        <span class="link-description">
+          <b>[</b
+          ><span class="tech-name lng-publication">публікації, оформлення</span
+          ><b>]</b>
+        </span>
+        <!-- <p class="about-project">
+          <span class="about lng-aboutProject">About the project:</span>
+          <span class="lng-aboutFilmoteka"
+            >application for choosing a movie with the ability to add movies to
+            the library.</span
+          >
+        </p>
+        <p class="about-project">
+          <span class="about lng-tasks">My tasks:</span>
+          <span class="lng-filmotekaTask"
+            >responsible for sections My Library, Header. Coordination of team
+            tasks.</span
+          >
+        </p>
+        <p class="about-project">
+          <span class="about lng-role">My role:</span> Scrum Master,
+          <span class="lng-profession">Front-End developer</span> (<span
+            class="lng-team"
+            >team project</span
+          >).
+        </p> -->
+      </li>
+      <li class="projects-item">
+        <a class="projects-link lng-phonebook" href="https://ua-expert.com/">
+          ua-expert.com
+        </a>
+        <span class="dots"
+          >...................................................</span
+        >
+        <span class="link-description">
+          <b>[</b
+          ><span class="tech-name lng-publication">публікації, оформлення</span
+          ><b>]</b>
+        </span>
+        <!-- <p class="about-project">
+          <span class="about lng-aboutProject">About the project:</span>
+          <span class="lng-aboutPhonebook"
+            >web app with authorization, profile page, ability to add, update
+            and remove contacts, and existing contacts filter.</span
+          >
+        </p>
+        <p class="about-project">
+          <span class="about lng-tasks">My tasks:</span>
+          <span class="lng-phonebookTask"
+            >development of a front-end application on react.</span
+          >
+        </p>
+        <p class="about-project">
+          <span class="about lng-role">My role:</span>
+          <span class="lng-profession">Front-End developer</span> (<span
+            class="lng-individual"
+            >individual project</span
+          >).
+        </p> -->
+      </li>
+    </ol>
+  </div>
+
+  <!--work experience-->
+  <div class="projects-container">
+    <h3 class="about-me-title lng-work">Досвід роботи</h3>
+    <!--company 1-->
+    <div>
+      <h4 class="profession-title">
+        <a
+          href="https://www.facebook.com/creditexpertiza/about/"
+          class="profession-company lng-expertActivity"
+        >
+          Незалежна судово-експертна діяльність
+        </a>
+      </h4>
+      <span class="profession-time">
+        2019 – <span class="lng-upToNow">до тепер</span>
+        <span class="profession-divider">|</span>
+        <span class="lng-ukraine">Україна</span>
+      </span>
+    </div>
+
+    <!--company 2-->
+    <div>
+      <h4 class="profession-title">
+        <span class="lng-expert">Експерт по кредитам у</span>
+        <a href="https://ua-expert.com/ua/" class="profession-company lng-ersu">
+          ТОВ «Експертно-дослідна служба України»
+        </a>
+      </h4>
+      <span class="profession-time">
+        2016 - 2019 <span class="profession-divider">|</span>
+        <span class="lng-kyiv">Київ</span>
+      </span>
+      <ul class="profession-duties">
+        <li class="profession-duties-item lng-providedExpertise">
+          Provided expertise for court or out-of-court. I wrote over 100 credit
+          expertise reports.
+        </li>
+        <li class="profession-duties-item lng-managedExpertise">
+          Managed content and created content marketing. I wrote over 50
+          specialized publications and articles, which I posted on the web and
+          social networks.
+        </li>
+        <li class="profession-duties-item lng-customer">
+          Provided full customer support services.
+        </li>
+        <li class="profession-duties-item lng-calculation">
+          Developed a calculation system in Excel and adapted it for the
+          majority of credit expertise reports.
+        </li>
+        <li class="profession-duties-item lng-analyzedCourt">
+          Analyzed versatile court decisions from various instances.
+        </li>
+        <li class="profession-duties-item lng-certification">
+          Completed the certification in the Ministry of Justice of Ukraine as
+          an independent forensic expert, specialty "Research of documents of
+          financial and credit transactions".
+        </li>
+      </ul>
+    </div>
+
+    <!-- company 3 -->
+    <div>
+      <h4 class="profession-title profession-action lng-bankingActivity">
+        Банківська діяльність
+      </h4>
+      <span class="profession-time">
+        2007 – 2014 <span class="profession-divider">|</span>
+        <span class="lng-kyiv">Київ</span>
+      </span>
+    </div>
+
+    <div>
+      <h4 class="profession-title">
+        <span class="lng-leadEconomist">Провідний економіст в</span>
+        <a href="https://vtb.fg.gov.ua/" class="profession-company lng-vtb">
+          АТ «ВТБ Банк»
+        </a>
+      </h4>
+      <span class="profession-time">
+        2008 - 2014 <span class="profession-divider">|</span>
+        <span class="lng-kyiv">Київ</span>
+      </span>
+      <ul class="profession-duties">
+        <li class="profession-duties-item">
+          Здійснила супровід видачі кредитів юридичним особам (корпоративні
+          кредити) з перевіркою пакету документів, відкриттям рахунків,
+          формуванням супровідних бухгалтерських проводок, моніторингом діючих
+          кредитів, нарахуванням відсотків по кредитах, відстеженням
+          прострочених кредитів, нарахуванням простроченої заборгованості, пені,
+          комісій та здійсненням інших операції.
+        </li>
+        <li class="profession-duties-item">
+          Провела перевірки на відділеннях, філіях банку з метою контролю та
+          консультації працівників.
+        </li>
+        <li class="profession-duties-item">
+          Взяла участь у написанні та коригуванні нормативної бази.
+        </li>
+      </ul>
+    </div>
+
+    <!--company 4-->
+    <div>
+      <h4 class="profession-title">
+        <span class="lng-leadEconomist">Провідний економіст в</span>
+        <span class="profession-company lng-ukrsotsbank">
+          АТ «Укрсоцбанк»
+        </span>
+      </h4>
+      <span class="profession-time">
+        2007 - 2008 <span class="profession-divider">|</span>
+        <span class="lng-kyiv">Київ</span>
+      </span>
+    </div>
+  </div>
+
+  <!--education-->
+  <div class="projects-container">
+    <h3 class="about-me-title lng-education">
+      Освіта та професійна підготовка
+    </h3>
+
+    <!--education 1-->
+    <div>
+      <h4 class="profession-title">
+        <a
+          href="https://centerjust.gov.ua/"
+          class="education-company lng-lawInstitute"
+        >
+          Інститут права та післядипломної освіти Міністерства юстиції України
+        </a>
+      </h4>
+      <p class="profession-duties-item lng-lawDescription">
+        Підготовка з теоретичних, організаційних і процесуальних питань судової
+        експертизи
+      </p>
+      <!-- <span class="profession-time"
+        >2002 - 2007 <span class="profession-divider">|</span>
+        <span class="lng-kyiv">Kyiv</span></span
+      > -->
+    </div>
+
+    <!--education 2-->
+    <div>
+      <h4 class="profession-title">
+        <a
+          href="https://kndise.gov.ua/"
+          class="education-company lng-researchInstitute"
+          >Київський науково-дослідний інститут судових експертиз (КНДІСЕ)
+        </a>
+      </h4>
+      <p class="profession-duties-item lng-researchDescription">
+        Практична підготовка для присвоєння кваліфікації судового експерта із
+        спеціальності «Дослідження документів фінансово-кредитних операцій»
+      </p>
+      <span class="profession-time"
+        >2019 <span class="profession-divider">|</span>
+        <span class="lng-kyiv">Київ</span></span
+      >
+    </div>
+
+    <!--education 3-->
+    <div>
+      <h4 class="profession-title">
+        <a href="https://kneu.edu.ua/" class="education-company lng-kneu">
+          Київський Національний Економічний Університет ім. В.Гетьмана
+        </a>
+      </h4>
+      <ul class="education-duties">
+        <li class="profession-duties-item">
+          <p>
+            <span class="lng-management"
+              >Менеджмент підприємницької діяльності</span
+            >
+            <span class="dots lng-dotsManagement"> ..................... </span>
+            <span class="link-description">
+              <b>[</b
+              ><span class="tech-name lng-magister">Магістр економіки</span
+              ><b>]</b>
+            </span>
+          </p>
+        </li>
+        <li class="profession-duties-item">
+          <p>
+            <span class="lng-enterprises">Економіка підприємства</span>
+            <span class="dots lng-dotsBachelor">
+              .................................................
+            </span>
+            <span class="link-description">
+              <b>[</b
+              ><span class="tech-name lng-bachelor"
+                >Бакалавр, викладач економіки</span
+              ><b>]</b>
+            </span>
+          </p>
+        </li>
+      </ul>
+      <span class="profession-time"
+        >2002 - 2007 <span class="profession-divider">|</span>
+        <span class="lng-kyiv">Київ</span></span
+      >
+    </div>
+  </div>
+
+  <!--additional education-->
+  <div class="projects-container">
+    <h3 class="about-me-title lng-additionalEducation">Додаткова освіта</h3>
+
+    <!--education 1-->
+    <div>
+      <h4 class="profession-title">
+        <a href="https://goit.ua/" class="education-company">
+          IT School GoIT
+        </a>
+      </h4>
+      <p class="education-duties lng-fullStack">Full Stack розробник</p>
+      <span class="profession-time"
+        >2020 - 2021 <span class="profession-divider">|</span>
+        <span class="lng-kyiv">Київ</span></span
+      >
+      <!-- <ul class="profession-duties">
+        <li class="profession-duties-item lng-completed">
+          Completed a 9-month course on front-end and a 2-month course on
+          back-end.
+        </li>
+        <li class="profession-duties-item lng-learned">
+          Learned the workings of JavaScript, React.js, HTML, CSS, and others.
+        </li>
+        <li class="profession-duties-item lng-vsc">
+          Became familiar with using popular coding technology such as Visual
+          Studio Code.
+        </li>
+        <li class="profession-duties-item lng-built">
+          Built several web applications using the technologies above. Three of
+          them are team projects.
+        </li>
+      </ul> -->
+    </div>
+
+    <!--education 2-->
+    <div>
+      <h4 class="profession-title">
+        <a href="https://www.rock-it.school/" class="education-company">
+          Rock-IT Recruitment School
+        </a>
+      </h4>
+      <p class="education-duties">Smart IT Sourcer</p>
+      <span class="profession-time"
+        >2020 <span class="profession-divider">|</span>
+        <span class="lng-kyiv">Київ</span></span
+      >
+    </div>
+  </div>
+</div>

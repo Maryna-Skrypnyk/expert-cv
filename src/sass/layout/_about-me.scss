@@ -1,0 +1,226 @@
+.about-me-container {
+  padding: 10px 30px 50px 30px;
+
+  &.light-theme {
+    background-color: $primary-white-color;
+  }
+
+  &.dark-theme {
+    background-color: $sidebar-bg-color;
+    // color: $primary-white-color;
+    color: $primary-text-color;
+  }
+
+  @media screen and (max-width: 767px) {
+    padding-left: calc((100vw - 320px) / (480 - 320) * (40 - 30) + 30px);
+    padding-right: calc((100vw - 320px) / (480 - 320) * (40 - 30) + 30px);
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 10px 40px 80px 40px;
+  }
+
+  @media screen and (min-width: 960px) {
+    padding: 10px 50px 80px 50px;
+  }
+}
+
+.info-tablet {
+  margin-bottom: 20px;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.info-container {
+  margin-bottom: 30px;
+}
+
+.profession {
+  line-height: $profession-line-height;
+  font-size: 18px;
+  font-weight: $title-font-weight;
+}
+
+.name {
+  margin-bottom: 15px;
+  font-weight: $title-font-weight;
+  line-height: $name-line-height;
+  font-size: 30px;
+
+  @media screen and (max-width: 480px) {
+    font-size: calc((100vw - 320px) / (480 - 320) * (30 - 25) + 25px);
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+  }
+}
+
+.description {
+  font-size: $main-font-size;
+  font-weight: $primary-font-weight;
+  line-height: $profession-line-height;
+}
+
+.profession-time {
+  @include secondaryfont();
+}
+
+.projects-container {
+  margin-bottom: 20px;
+}
+
+.about-me-title {
+  margin-bottom: 10px;
+  font-size: $title-about-font-size;
+  font-weight: $title-font-weight;
+  line-height: $title-about-line-height;
+}
+
+.projects-item {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-weight: $title-font-weight;
+
+  .projects-link {
+    @include companyfont($accent-color);
+    text-decoration: none;
+
+    @include transit(font-size);
+
+    &:hover,
+    &:focus,
+    .projects-item:hover &,
+    .projects-item:focus & {
+      font-size: 14.5px;
+      text-decoration: underline;
+    }
+  }
+}
+
+.tech-name {
+  font-size: $main-font-size;
+  line-height: $profession-line-height;
+  font-weight: $secondary-font-weight;
+}
+
+.dots {
+  color: $dots-color;
+  font-weight: $dots-font-weight;
+
+  @media screen and (max-width: 657px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 658px) and (max-width: 767px) {
+    display: inline;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 1030px) {
+    display: inline;
+  }
+}
+
+.link-description {
+  @media screen and (max-width: 657px) {
+    display: block;
+  }
+
+  @media screen and (min-width: 657px) and (max-width: 767px) {
+    display: inline;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1030px) {
+    display: block;
+  }
+}
+
+.about-project {
+  font-size: $main-font-size;
+  font-weight: $dim-font-weight;
+  line-height: $profession-line-height;
+}
+
+.about {
+  font-weight: $secondary-font-weight;
+}
+
+.profession-title {
+  margin-top: 10px;
+  font-size: $profession-font-size;
+  font-weight: $title-font-weight;
+  line-height: $profession-line-height;
+}
+
+.profession-company {
+  color: $accent-color;
+  text-decoration: none;
+  font-size: $profession-font-size;
+  @include transit(font-size);
+
+  &:hover,
+  &:focus {
+    font-size: 16.5px;
+  }
+}
+
+span.profession-company:hover,
+span.profession-company:focus {
+  font-size: 16px;
+}
+
+.profession-action {
+  color: $accent-color;
+  text-decoration: none;
+  font-size: $profession-font-size;
+  font-weight: $title-font-weight;
+  line-height: $profession-line-height;
+}
+
+.profession-duties {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  // list-style: none;
+}
+
+.profession-duties-item {
+  font-size: $main-font-size;
+  font-weight: $primary-font-weight;
+  line-height: $profession-line-height;
+}
+
+.education-company {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  @include companyfont($accent-color);
+  text-decoration: none;
+  font-size: $profession-font-size;
+  @include transit(font-size);
+
+  &:hover,
+  &:focus {
+    font-size: 16.5px;
+  }
+}
+
+.education-duties {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  font-size: $main-font-size;
+  font-weight: $primary-font-weight;
+  line-height: $profession-line-height;
+}
+
+.education-duties-item {
+  font-size: $main-font-size;
+  font-weight: $primary-font-weight;
+  line-height: $profession-line-height;
+}
+
+.projects-container.dark-theme {
+  color: $primary-white-color;
+}
