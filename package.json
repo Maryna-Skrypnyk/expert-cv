@@ -2,7 +2,7 @@
   "name": "expert_cv",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Maryna-Skrypnyk.github.io/expert_cv",
+  "homepage": "https://Maryna-Skrypnyk.github.io/expert_cv/",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /expert_cv/",
