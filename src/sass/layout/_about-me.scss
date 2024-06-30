@@ -172,11 +172,11 @@ span.profession-company:focus {
 }
 
 .profession-action {
-  color: $accent-color;
+  // color: $accent-color;
   text-decoration: none;
-  font-size: $profession-font-size;
+  font-size: 18px;
   font-weight: $title-font-weight;
-  line-height: $profession-line-height;
+  line-height: $title-about-line-height;
 }
 
 .profession-duties {

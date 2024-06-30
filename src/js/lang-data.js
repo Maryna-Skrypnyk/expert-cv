@@ -8,7 +8,7 @@ export const langArr = {
     ua: 'Марина Скрипник',
   },
   profession: {
-    en: 'Expert in financial and credit operations',
+    en: 'Expert in financial and credit transactions',
     ua: 'Експерт з фінансово-кредитних операцій',
   },
   fullStack: {
@@ -147,13 +147,13 @@ export const langArr = {
     en: 'IT',
     ua: 'IT',
   },
-  games: {
-    en: 'Board games',
-    ua: 'Настільні ігри',
-  },
+  // games: {
+  //   en: 'Board games',
+  //   ua: 'Настільні ігри',
+  // },
   description: {
-    en: 'I took part in writing more than 100 expert opinions. I wrote more than 50 publications on websites and social networks. In 2019, I completed the training and certification at the Ministry of Justice of Ukraine as an independent forensic expert in the specialty `Research of documents of financial and credit transactions`.',
-    ua: 'Взяла участь у написанні понад 100 експертних висновків. Написала понад 50 публікацій з розміщенням на сайтах та у соц.мережах. У 2019 році пройшла і успішно завершила підготовку та атестацію в Міністерстві юстиції України на незалежного судового експерта по спеціальності "Дослідження документів фінансово-кредитних операцій".',
+    en: 'I participated in writing over 100 expert opinions and published over 50 specialized articles on websites and social networks. In 2019, I completed the training and certification at the Ministry of Justice of Ukraine as an independent forensic expert in the specialty `Research of documents of financial and credit transactions`.',
+    ua: 'Взяла участь у написанні понад 100 експертних висновків, написала та опублікувала понад 50 спеціалізованих статей на сайтах і в соціальних мережах. У 2019 році пройшла і успішно завершила підготовку та атестацію в Міністерстві юстиції України на незалежного судового експерта по спеціальності "Дослідження документів фінансово-кредитних операцій".',
   },
   projects: {
     en: 'Work with sites',
@@ -171,12 +171,20 @@ export const langArr = {
     en: 'Work experience',
     ua: 'Досвід роботи',
   },
+  forensicActivity: {
+    en: 'Forensic expert activity:',
+    ua: 'Судово-експертна діяльність:',
+  },
   expertActivity: {
     en: 'Independent forensic expert activity',
-    ua: 'Незалежна судово-експертна діяльність',
+    ua: 'незалежній судово-експертній діяльності',
+  },
+  forensicExpert: {
+    en: 'Forensic expert /',
+    ua: 'Судовий експерт у',
   },
   expert: {
-    en: 'Credit expert',
+    en: 'Credit expert /',
     ua: 'Експерт по кредитам у',
   },
   ersu: {
@@ -184,8 +192,24 @@ export const langArr = {
     ua: 'ТОВ «Експертно-дослідна служба України»',
   },
   bankingActivity: {
-    en: 'Banking activity',
-    ua: 'Банківська діяльність',
+    en: 'Banking activity:',
+    ua: 'Банківська діяльність:',
+  },
+  support: {
+    en: 'Supported issuing loans to legal entities, including corporate clients and individual entrepreneurs, which involved verifying documentation packages, preparing conclusions, opening accounts, generating accompanying accounting entries, monitoring active loans, and closing loans.',
+    ua: 'Здійснила супровід видачі кредитів юридичним особам, в т.ч. корпоративним та фізичним особам-підприємцям, включаючи перевірку пакету документів, підготовку висновків, відкриття рахунків, формування супровідних бухгалтерських проводок, моніторинг діючих кредитів та закриття кредитів.',
+  },
+  calculate: {
+    en: 'Calculated interest on loans, tracked overdue loans, calculated overdue debts, penalties, and commissions, determined overdraft limits, and handled other related operations.',
+    ua: 'Нараховувала відсотки по кредитах, відстежувала прострочені кредити, нараховувала прострочену заборгованість, пеню, комісії, розраховувала ліміти овердрафтів та інші операції.',
+  },
+  audits: {
+    en: 'Conducted audits at bank branches and offices to ensure control and provide employee consultations.',
+    ua: 'Провела перевірки на відділеннях, філіях банку з метою контролю та консультації працівників.',
+  },
+  documentation: {
+    en: 'Participated in the drafting and revision of regulatory documentation.',
+    ua: 'Взяла участь у складанні та доопрацюванні нормативної бази.',
   },
   vtb: {
     en: '«VTB Bank» Public Joint Stock company',
@@ -196,7 +220,7 @@ export const langArr = {
     ua: 'АТ «Укрсоцбанк»',
   },
   leadEconomist: {
-    en: 'Lead Economist',
+    en: 'Lead Economist /',
     ua: 'Провідний економіст в',
   },
   upToNow: {
@@ -208,20 +232,20 @@ export const langArr = {
     ua: 'Освіта та професійна підготовка',
   },
   lawInstitute: {
-    en: 'Інститут права та післядипломної освіти Міністерства юстиції України',
+    en: 'The Institute of Law and Postgraduate Education of The Ministry of Justice of Ukraine',
     ua: 'Інститут права та післядипломної освіти Міністерства юстиції України',
   },
   lawDescription: {
-    en: 'Підготовка з теоретичних, організаційних і процесуальних питань судової експертизи',
-    ua: 'Підготовка з теоретичних, організаційних і процесуальних питань судової експертизи',
+    en: 'Completed the training in theoretical, organizational, and procedural aspects of forensic expertise',
+    ua: 'Пройшла підготовку з теоретичних, організаційних і процесуальних питань судової експертизи',
   },
   researchInstitute: {
-    en: 'Київський науково-дослідний інститут судових експертиз (КНДІСЕ)',
+    en: 'Kyiv Scientific Research Institute of Forensic Expertise (KFI)',
     ua: 'Київський науково-дослідний інститут судових експертиз (КНДІСЕ)',
   },
   researchDescription: {
-    en: 'Практична підготовка для присвоєння кваліфікації судового експерта із спеціальності «Дослідження документів фінансово-кредитних операцій»',
-    ua: 'Практична підготовка для присвоєння кваліфікації судового експерта із спеціальності «Дослідження документів фінансово-кредитних операцій»',
+    en: 'Completed the practical training and obtained the qualification of a forensic expert in the specialty `Research of Documents of Financial and Credit Transactions`',
+    ua: 'Завершила практичну підготовку та отримала кваліфікацію судового експерта із спеціальності «Дослідження документів фінансово-кредитних операцій»',
   },
   additionalEducation: {
     en: 'Additional Education',
@@ -255,29 +279,13 @@ export const langArr = {
     en: 'Economic of enterprises',
     ua: 'Економіка підприємств',
   },
-  // completed: {
-  //   en: 'Completed a 9-month course on front-end and a 2-month course on back-end.',
-  //   ua: 'Завершила 9-місячний курс front-end та 2-місячний курс back-end розробки.',
-  // },
-  // learned: {
-  //   en: 'Learned the workings of JavaScript, React.js, HTML, CSS, and others.',
-  //   ua: 'Навчилась працювати з JavaScript, React.js, HTML, CSS та з іншими технологіями.',
-  // },
-  // vsc: {
-  //   en: 'Became familiar with using popular coding technology such as Visual Studio Code.',
-  //   ua: 'Ознайомилась з використанням популярної технології кодування Visual Studio Code.',
-  // },
-  // built: {
-  //   en: 'Built several web applications using the technologies above. Three of them are team projects.',
-  //   ua: 'Створила кілька веб-додатків, використовуючи вищезазначені технології, з яких три – це командні проекти.',
-  // },
   providedExpertise: {
     en: 'Provided expertise for court or out-of-court. I wrote over 100 credit expertise reports.',
     ua: 'Надала експертизу для судового та позасудового розгляду. Написала понад 100 звітів кредитної експертизи.',
   },
   managedExpertise: {
     en: 'Managed content and created content marketing. I wrote over 50 specialized publications and articles, which I posted on the web and social networks.',
-    ua: 'Керувала контентом і створювала маркетинговий контент. Написала понад 50 спеціалізованих публікацій і статей, які розміщувала в Інтернеті та соціальних мережах.',
+    ua: 'Керувала контентом і створювала маркетинговий контент. Написала понад 50 спеціалізованих публікацій і статей, які розміщувала на сайтах та в соціальних мережах.',
   },
   customer: {
     en: 'Provided full customer support services.',
@@ -290,9 +298,5 @@ export const langArr = {
   analyzedCourt: {
     en: 'Analyzed versatile court decisions from various instances.',
     ua: 'Проаналізувала різноманітні судові рішення різних інстанцій.',
-  },
-  certification: {
-    en: 'Completed the certification in the Ministry of Justice of Ukraine as an independent forensic expert, specialty "Research of documents of financial and credit transactions".',
-    ua: 'Пройшла атестацію в Міністерстві юстиції України на звання незалежного судового експерта зі спеціальності «Дослідження документів фінансово-кредитних операцій».',
   },
 };
