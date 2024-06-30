@@ -172,7 +172,8 @@ span.profession-company:focus {
 
   &::before {
     // content: '\276F'; /* Це є символ для маркера (bullet) */
-    content: '\27A5';
+    // content: '\27A5';
+    content: '\2B9A';
     position: absolute;
     left: 0; /* Зміщуємо маркер вліво від початку заголовка */
     color: $accent-color; /* Колір маркера */
