@@ -137,16 +137,6 @@
   }
 }
 
-.about-project {
-  font-size: $main-font-size;
-  font-weight: $dim-font-weight;
-  line-height: $profession-line-height;
-}
-
-.about {
-  font-weight: $secondary-font-weight;
-}
-
 .profession-title {
   margin-top: 10px;
   font-size: $profession-font-size;
@@ -177,6 +167,16 @@ span.profession-company:focus {
   font-size: 18px;
   font-weight: $title-font-weight;
   line-height: $title-about-line-height;
+  position: relative; /* Додаємо позицію relative для зміщення маркера */
+  padding-left: 20px; /* Задаємо відступ для тексту заголовка */
+
+  &::before {
+    // content: '\276F'; /* Це є символ для маркера (bullet) */
+    content: '\27A5';
+    position: absolute;
+    left: 0; /* Зміщуємо маркер вліво від початку заголовка */
+    color: $accent-color; /* Колір маркера */
+  }
 }
 
 .profession-duties {

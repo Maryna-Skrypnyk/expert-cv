@@ -180,11 +180,11 @@ export const langArr = {
     ua: 'незалежній судово-експертній діяльності',
   },
   forensicExpert: {
-    en: 'Forensic expert /',
+    en: 'Forensic expert in',
     ua: 'Судовий експерт у',
   },
   expert: {
-    en: 'Credit expert /',
+    en: 'Credit expert at',
     ua: 'Експерт по кредитам у',
   },
   ersu: {
@@ -220,7 +220,7 @@ export const langArr = {
     ua: 'АТ «Укрсоцбанк»',
   },
   leadEconomist: {
-    en: 'Lead Economist /',
+    en: 'Lead Economist at',
     ua: 'Провідний економіст в',
   },
   upToNow: {
