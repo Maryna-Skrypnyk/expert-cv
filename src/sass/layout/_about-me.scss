@@ -83,18 +83,42 @@
   margin-bottom: 5px;
   font-weight: $title-font-weight;
 
+  // .projects-link {
+  //   @include companyfont($accent-color);
+  //   text-decoration: none;
+
+  //   @include transit(font-size);
+
+  //   &:hover,
+  //   &:focus,
+  //   .projects-item:hover &,
+  //   .projects-item:focus & {
+  //     font-size: 14.5px;
+  //     text-decoration: underline;
+  //   }
+  // }
+
   .projects-link {
     @include companyfont($accent-color);
     text-decoration: none;
+    background-image: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 90%,
+      $accent-color 90%,
+      $accent-color 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
 
-    @include transit(font-size);
+    @include transition(font-size, background-size);
 
     &:hover,
-    &:focus,
-    .projects-item:hover &,
-    .projects-item:focus & {
-      font-size: 14.5px;
-      text-decoration: underline;
+    &:focus {
+      font-size: 14.3px;
+      background-size: 100% 100%;
+      background-position-x: left;
     }
   }
 }
@@ -144,15 +168,40 @@
   line-height: $profession-line-height;
 }
 
+// .profession-company {
+//   color: $accent-color;
+//   text-decoration: none;
+//   font-size: $profession-font-size;
+//   @include transit(font-size);
+
+//   &:hover,
+//   &:focus {
+//     font-size: 16.5px;
+//   }
+// }
+
 .profession-company {
   color: $accent-color;
   text-decoration: none;
   font-size: $profession-font-size;
-  @include transit(font-size);
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 90%,
+    $accent-color 90%,
+    $accent-color 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+
+  @include transition(font-size, background-size);
 
   &:hover,
   &:focus {
-    font-size: 16.5px;
+    font-size: 16.3px;
+    background-size: 100% 100%;
+    background-position-x: left;
   }
 }
 
@@ -193,17 +242,44 @@ span.profession-company:focus {
   line-height: $profession-line-height;
 }
 
+// .education-company {
+//   margin-top: 10px;
+//   margin-bottom: 5px;
+//   @include companyfont($accent-color);
+//   text-decoration: none;
+//   font-size: $profession-font-size;
+//   @include transit(font-size);
+
+//   &:hover,
+//   &:focus {
+//     font-size: 16.5px;
+//   }
+// }
+
 .education-company {
   margin-top: 10px;
   margin-bottom: 5px;
   @include companyfont($accent-color);
   text-decoration: none;
   font-size: $profession-font-size;
-  @include transit(font-size);
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 90%,
+    $accent-color 90%,
+    $accent-color 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+
+  @include transition(font-size, background-size);
 
   &:hover,
   &:focus {
-    font-size: 16.5px;
+    font-size: 16.3px;
+    background-size: 100% 100%;
+    background-position-x: left;
   }
 }
 

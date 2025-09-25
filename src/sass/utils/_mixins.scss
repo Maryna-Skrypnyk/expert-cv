@@ -39,3 +39,8 @@
   transition-duration: $duration;
   transition-timing-function: $cubic-bezier;
 }
+
+@mixin transition($property...) {
+  transition-property: $property;
+  transition-duration: $duration-slow;
+}
