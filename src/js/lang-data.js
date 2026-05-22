@@ -224,8 +224,8 @@ export const langArr = {
     ua: 'Адмініструвала платформу «ДАХ».',
   },
   solarProject: {
-    en: 'Developed a custom accounting system for a solar power generation project.',
-    ua: 'Розробила власну систему обліку для проєкту сонячної генерації.',
+    en: 'Developed a custom accounting system for a solar power generation project based on Google Apps Script, Google Sites, and Google Sheets.',
+    ua: 'Розробила власну систему обліку для проєкту сонячної генерації на базі Google Apps Script, Google Sites, Google Sheets.',
   },
   support: {
     en: 'Supported issuing loans to legal entities, including corporate clients and individual entrepreneurs, which involved verifying documentation packages, preparing conclusions, opening accounts, generating accompanying accounting entries, monitoring active loans, and closing loans.',
@@ -267,9 +267,17 @@ export const langArr = {
     en: 'The Institute of Law and Postgraduate Education of The Ministry of Justice of Ukraine',
     ua: 'Інститут права та післядипломної освіти Міністерства юстиції України',
   },
+  lawInstituteBokarius: {
+    en: `National Scientific Center «Hon. Prof. М.S. Bokarius Forensic Science Institute» (NSC FSI)`,
+    ua: `Національний науковий центр «Інститут судових експертиз ім. Засл. проф. М. С. Бокаріуса» (ННЦІСЕ)`,
+  },
   lawDescription: {
     en: 'Completed the training in theoretical, organizational, and procedural aspects of forensic expertise',
     ua: 'Пройшла підготовку з теоретичних, організаційних і процесуальних питань судової експертизи',
+  },
+  lawDescriptionBokarius: {
+    en: `Completed the training under the long-term professional development program for forensic experts on the topic: «Legal and Organizational Foundations of Forensic Expert Activity»`,
+    ua: `Пройшла підготовку за загальною довгостроковою професійною програмою підвищення кваліфікації на тему «Правові та організаційні основи судово-експертної діяльності»`,
   },
   researchInstitute: {
     en: 'Kyiv Scientific Research Institute of Forensic Expertise (KFI)',
