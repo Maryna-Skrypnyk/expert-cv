@@ -156,12 +156,16 @@ export const langArr = {
     ua: 'Взяла участь у написанні понад 100 експертних висновків, написала та опублікувала понад 50 спеціалізованих статей на сайтах і в соціальних мережах. У 2019 році пройшла і успішно завершила підготовку та атестацію в Міністерстві юстиції України на незалежного судового експерта по спеціальності "Дослідження документів фінансово-кредитних операцій".',
   },
   projects: {
-    en: 'Work with sites',
-    ua: 'Робота із сайтами',
+    en: 'Work with sites and projects',
+    ua: 'Робота із сайтами, проєкти',
   },
   site: {
     en: 'personal business page',
     ua: 'власна бізнес-сторінка',
+  },
+  system: {
+    en: 'custom accounting system',
+    ua: 'власна система обліку',
   },
   publication: {
     en: 'publications, design',
@@ -194,6 +198,34 @@ export const langArr = {
   bankingActivity: {
     en: 'Banking activity:',
     ua: 'Банківська діяльність:',
+  },
+  accountingActivity: {
+    en: 'Accounting activity:',
+    ua: 'Бухгалтерська діяльність:',
+  },
+  accountingScratch: {
+    en: 'Built the accounting system of a gardening association from scratch: reconstructed the history of settlements and payments across approximately 400 individual accounts, and implemented full accounting and tax reporting processes with the preparation of financial statements',
+    ua: 'Побудувала бухгалтерський облік садового товариства «з нуля»: відновила історію розрахунків і платежів по близько 400 особовим рахункам, впровадила повноцінний бухгалтерський та податковий облік із формуванням фінансової звітності.',
+  },
+  primaryDocumentation: {
+    en: 'Systematized primary documentation, accounts payable/receivable, assets, inventory, and daily financial operations, ensuring transparency and compliance with legal requirements.',
+    ua: 'Систематизувала первинну документацію, облік контрагентів, активів, ТМЦ і щоденних фінансових операцій, забезпечивши прозорість та відповідність діяльності вимогам законодавства.',
+  },
+  registerUpdate: {
+    en: `Updated the register of association members, conducted a comprehensive accounting and financial analysis of the organization's activities with conclusions and recommendations, and provided over 100 consultations on settlements and debt adjustments for association members.`,
+    ua: 'Актуалізувала реєстр членів товариства, провела комплексний бухгалтерсько-економічний аналіз діяльності СТ з підготовкою висновків та рекомендацій, надала понад 100 консультацій щодо взаєморозрахунків і коригування заборгованостей членів Товариства.',
+  },
+  dailyAccounting: {
+    en: 'Organized daily accounting operations, including posting bank transactions, accrual of income and expenses, payroll accounting, tax accounting, civil-law contracts (GPC), and electricity accounting, ensuring the accuracy and timeliness of financial data.',
+    ua: 'Організувала щоденне ведення бухгалтерського обліку: здійснювала рознесення банківських операцій, нарахування доходів і витрат, облік заробітної плати, податків, ЦПД та електроенергії, забезпечуючи актуальність фінансових даних.',
+  },
+  dahAdmin: {
+    en: `Administered the «DAH» platform.`,
+    ua: 'Адмініструвала платформу «ДАХ».',
+  },
+  solarProject: {
+    en: 'Developed a custom accounting system for a solar power generation project.',
+    ua: 'Розробила власну систему обліку для проєкту сонячної генерації.',
   },
   support: {
     en: 'Supported issuing loans to legal entities, including corporate clients and individual entrepreneurs, which involved verifying documentation packages, preparing conclusions, opening accounts, generating accompanying accounting entries, monitoring active loans, and closing loans.',
